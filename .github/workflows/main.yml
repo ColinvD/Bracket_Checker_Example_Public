@@ -22,3 +22,6 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
+
+      - name: CodeQl Bundle
+        uses: advanced-security/codeql-bundele-action@v1.1.0
