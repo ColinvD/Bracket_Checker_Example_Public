@@ -14,4 +14,6 @@ jobs:
 
       - name: Build DotNet
         uses: Elskom/build-dotnet@v1.1.1
-        
+
+      - name: Run tests
+        run: dotnet tests BracketCheckerTests.cs
