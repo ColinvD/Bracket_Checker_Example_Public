@@ -19,9 +19,6 @@ jobs:
         uses: EasyDesk/action-dotnet-test@v1.0.0
 
       - name: dotnet-format
-        uses: xt0rted/dotnet-format@v1.2.0
+        uses: actions/setup-dotnet@v5
         with:
-          repo-token: ${{ github.token }}
-          version: 3
-          action: check
-          fail-fast: false
+          dotnet-version: '8.0.x'
