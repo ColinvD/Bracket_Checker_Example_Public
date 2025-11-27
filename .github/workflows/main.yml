@@ -24,3 +24,4 @@ jobs:
           repo-token: ${{ github.token }}
           version: 3
           action: check
+          fail-fast: false
