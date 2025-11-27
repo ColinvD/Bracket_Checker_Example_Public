@@ -20,3 +20,7 @@ jobs:
 
       - name: dotnet-format
         uses: xt0rted/dotnet-format@v1.2.0
+        with:
+          repo-token: ${{ github.token }}
+          version: 3
+          action: check
